@@ -1,0 +1,28 @@
+{
+  "name": "apiti",
+  "version": "1.0.0",
+  "description": "Āpiti is a web component library of useful extras that developers can include on their sites. The name \"Āpiti\" is a Māori verb which means \"to add, put together, place side by side, supplement, annex, append.\"",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "vite": "npx vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@chromatic-com/storybook": "^3.2.2",
+    "@storybook/addon-essentials": "^8.4.4",
+    "@storybook/blocks": "^8.4.4",
+    "@storybook/builder-vite": "^8.4.4",
+    "@storybook/test": "^8.4.4",
+    "@storybook/web-components": "^8.4.4",
+    "@storybook/web-components-vite": "^8.4.4",
+    "lit": "^3.2.1",
+    "storybook": "^8.4.4",
+    "vite": "^5.4.11"
+  }
+}
