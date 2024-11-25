@@ -1,8 +1,8 @@
 import * as HeaderStories from './Header.stories';
-import { Page } from './Page';
+import { Page } from '../src/index.js';
 
 export default {
-    title: 'Apiti/Design System/Pages/Page',
+    title: 'Apiti/Design System/Pages/Login',
     render: ( args ) => Page( args ),
 };
 

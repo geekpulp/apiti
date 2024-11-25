@@ -1,6 +1,6 @@
 import { fn } from '@storybook/test';
 
-import { Header } from '../src/organisms/header/Header';
+import { Header } from '../src/index.js';
 
 export default {
     title: 'Apiti/Design System/Organisms/Header',

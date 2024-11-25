@@ -1,6 +1,6 @@
 import { html } from 'lit';
 
-import { Button } from '../../atoms/buttons/button.js';
+import { Button } from '../../atoms/buttons/Button';
 import './header.css';
 
 export const Header = ( { user, onLogin, onLogout, onCreateAccount } ) => html`

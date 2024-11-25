@@ -1,6 +1,6 @@
 import { html } from 'lit';
 
-import { Header } from '../src/organisms/header/Header';
+import { Header } from '../../organisms/header/Header';
 import './page.css';
 
 export const Page = ( { user, onLogin, onLogout, onCreateAccount } ) => html`
